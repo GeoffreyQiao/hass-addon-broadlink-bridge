@@ -1,4 +1,4 @@
-ARG BUILD_FROM
+ARG BUILD_FROM=hassioaddons/base:4.1.1
 
 FROM $BUILD_FROM AS build
 RUN apk add git gcc musl-dev libffi-dev openssl-dev
